@@ -14,6 +14,7 @@
 		71BF97A219EF307900650D8F /* SimpleDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97A119EF307900650D8F /* SimpleDelegateTests.m */; };
 		71BF97AD19EF309800650D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97AC19EF309800650D8F /* ViewController.m */; };
 		71BF97B019EF31B500650D8F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */; };
+		E3B70DB419EF477F001A011C /* CounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B70DB319EF477F001A011C /* CounterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		71BF97AC19EF309800650D8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71BF97AE19EF31B500650D8F /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		E3B70DB219EF477F001A011C /* CounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterView.h; sourceTree = "<group>"; };
+		E3B70DB319EF477F001A011C /* CounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				71BF978A19EF307900650D8F /* AppDelegate.m */,
 				71BF97AB19EF309800650D8F /* ViewController.h */,
 				71BF97AC19EF309800650D8F /* ViewController.m */,
+				E3B70DB219EF477F001A011C /* CounterView.h */,
+				E3B70DB319EF477F001A011C /* CounterView.m */,
 				71BF97AE19EF31B500650D8F /* CustomTableViewCell.h */,
 				71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */,
 				71BF978F19EF307900650D8F /* Main.storyboard */,
@@ -224,6 +229,7 @@
 				71BF978B19EF307900650D8F /* AppDelegate.m in Sources */,
 				71BF97B019EF31B500650D8F /* CustomTableViewCell.m in Sources */,
 				71BF978819EF307900650D8F /* main.m in Sources */,
+				E3B70DB419EF477F001A011C /* CounterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +414,7 @@
 				71BF97A719EF307900650D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71BF97A819EF307900650D8F /* Build configuration list for PBXNativeTarget "SimpleDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				71BF97AA19EF307900650D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

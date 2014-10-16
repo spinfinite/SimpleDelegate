@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "CustomTableViewCell.h"
+#import "CounterView.h"
 
-@interface ViewController ()
+@interface ViewController () <CounterViewDelegate>
 
 @property (nonatomic, assign) NSInteger value;
+@property (nonatomic, strong) CounterView *counterView;
 
 @end
 
@@ -50,6 +52,12 @@
     }
     
     return nil;
+}
+
+(IBAction)incrementNumber:(id)sender{
+    
+    
+    
 }
 
 @end
